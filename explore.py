@@ -1,3 +1,11 @@
+### Self-Assessment Questions ###
+#1# A boolean filter uses operational logic (and, or, not) to filter each row based on whether or not they meet true-or-false conditions.
+#2# Single brackets return a one-dimensional list, while double brackets return a two-dimensional data frame. This distinction matters
+### when you are working with multiple variables, where double brackets would be preferred.
+#3# Pandas allows you to filter and sort large sets of data quicker and more efficiently than Excel allows you to, while also giving you
+### more options for filtering.
+
+
 print("--- Exercise 1: Load It ---")
 import pandas as pd
 df = pd.read_csv('data/retail_sales.csv')
